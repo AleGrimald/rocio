@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas de Cocina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(0deg, red, rgb(175, 20, 206), rgb(69, 72, 240));
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fd2c07;
+            color: rgb(224, 163, 163);
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .recipe {
+            background-color: rgb(222, 60, 243);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 1rem;
+            padding: 1rem;
+            width: 300px;
+            transition: transform 0.2s;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .recipe:hover {
+            transform: scale(1.05);
+        }
+        .recipe h2 {
+            margin-top: 0;
+        }
+        .recipe img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .recipe ul, .recipe ol {
+            padding-left: 1.5rem;
+        }
+
+        .video_recetas{
+            width: 100%;
+            height: 150px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Recetas de Cocina</h1>
+<section class="container">
+    <div class="recipe">
+       <h2>Ensalada de Quinoa</h2>
+         <img src="https://th.bing.com/th/id/OIP.luHsF_zKB8clZgQHsG65sgHaEe?w=311&h=188&c=7&r=0&o=5&pid=1.7" alt="">
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1 taza de quinoa</li>
+            <li>2 tazas de agua</li>
+            <li>1 pepino, picado</li>
+            <li>1 tomate, picado</li>
+            <li>1/4 taza de perejil, picado</li>
+            <li>Jugo de 1 limón</li>
+            <li>Sal y pimienta al gusto</li>
+        </ul>
+        <h3>Instrucciones:</h3>
+        <ol>
+            <li>Enjuaga la quinoa bajo agua fría.</li>
+            <li>Hierve el agua en una olla y añade la quinoa.</li>
+            <li>Cocina a fuego lento durante 15 minutos.</li>
+            <li>Deja enfriar y mezcla con los demás ingredientes.</li>
+            <li>Sirve frío y disfruta.</li>
+        </ol>
+        <iframe class="video_recetas" src="https://www.youtube.com/embed/gFO3GaKKn5U?si=ijw3o7Y6jSmn4NGa" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+         encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross
+         -origin" allowfullscreen></iframe> 
+    </div>
+
+    <div class="recipe">
+        <h2>Pollo al Curry</h2>
+        <img src="https://th.bing.com/th/id/OIP.U0Yr5tGy27DJ58JOhxH2HAHaE6?rs=1&pid=ImgDetMain" alt="">
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>500g de pechuga de pollo, cortada en cubos</li>
+            <li>1 cebolla, picada</li>
+            <li>2 dientes de ajo, picados</li>
+            <li>1 lata de leche de coco</li>
+            <li>2 cucharadas de curry en polvo</li>
+            <li>Sal y pimienta al gusto</li>
+            <li>Arroz para acompañar</li>
+        </ul>
+        
+        <h3>Instrucciones:</h3>
+        <ol>
+            <li>Sofríe la cebolla y el ajo en una sartén con un poco de aceite.</li>
+            <li>Añade el pollo y cocina hasta que esté dorado.</li>
+            <li>Agrega el curry en polvo y mezcla bien.</li>
+            <li>Vierte la leche de coco y cocina a fuego lento durante 20 minutos.</li>
+            <li>Sirve caliente con arroz.</li>
+        </ol>
+        <iframe class="video_recetas" src="https://www.youtube.com/embed/GTuX0UoT6fk?si=tmGkxLlWUVOJVvxf"
+         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-
+         media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+    </div>
+
+    <div class="recipe">
+        <h2>Tacos de Pescado</h2>
+        <img src="https://www.recetasnestlecam.com/sites/default/files/srh_recipes/aa5ef4407a3caa5b792400f94211bc54.jpg" 
+        alt="">
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>500g de filetes de pescado</li>
+            <li>1 taza de harina</li>
+            <li>1 huevo</li>
+            <li>1 taza de pan rallado</li>
+            <li>Aceite para freír</li>
+            <li>Tortillas de maíz</li>
+            <li>Salsa de tu elección</li>
+        </ul>
+        <h3>Instrucciones:</h3>
+        <ol>
+            <li>Corta el pescado en tiras.</li>
+            <li>Pasa las tiras por harina, huevo batido y pan rallado.</li>
+            <li>Fríe en aceite caliente hasta que estén doradas.</li>
+            <li>Sirve en tortillas con salsa.</li>
+        </ol>
+        <iframe  class="video_recetas" src="https://www.youtube.com/embed/SZriq_1iMBk?si=cvclMAJcqy30tbKm" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+
+    </div>
+
+    <div class="recipe">
+        <h2>Pasta Alfredo</h2>
+
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>400g de pasta</li>
+            <li>1 taza de crema de leche</li>
+            <li>1/2 taza de queso parmesano rallado</li>
+            <li>2 dientes de ajo, picados</li>
+            <li>Sal y pimienta al gusto</li>
+        </ul>
+        <h3>Instrucciones:</h3>
+        <ol>
+            <li>Cocina la pasta según las instrucciones del paquete.</li>
+            <li>En una sartén, sofríe el ajo en un poco de aceite.</li>
+            <li>Añade la crema de leche y el queso parmesano.</li>
+            <li>Mezcla con la pasta cocida y sirve caliente.</li>
+        </ol>
+        <iframe class="video_recetas" src="https://www.youtube.com/embed/BDqeVnxFoa8?si=FDSopHWY1pGPNDGj"
+         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+          gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="recipe">
+        <h2>Sopa de Tomate</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1kg de tomates</li>
+            <li>1 cebolla, picada</li>
+            <li>2 dientes de ajo, picados</li>
+            <li>4 tazas de caldo de verduras</li>
+            <li>Sal y pimienta al gusto</li>
+        </ul>
+        <h3>Instrucciones:</h3>
+        <ol>
+            <li>Sofríe la cebolla y el ajo en una olla.</li>
+            <li>Añade los tomates picados y cocina hasta que se ablanden.</li>
+            <li>Agrega el caldo de verduras y cocina a fuego lento durante 20 minutos.</li>
+            <li>Licúa la sopa y sirve caliente.</li>
+        </ol>
+    </div>
+
+    <div class="recipe">
+        <h2>Pizza Margarita</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>Masa para pizza</li>
+            <li>1 taza de salsa de tomate</li>
+            <li>200g de queso mozzarella</li>
+            <li>Hojas de albahaca fresca</li>
+            <li>Aceite de oliva</li>
+        </ul>
+        <h3>Instrucciones:</h3>
+        <ol>
+            <li>Extiende la masa para pizza.</li>
+            <li>Unta la salsa de tomate sobre la masa.</li>
+            <li>Añade el queso mozzarella y las hojas de albahaca.</li>
+            <li>Hornea a 220°C durante 15-20 minutos.</li>
+            <li>Rocía con aceite de oliva antes de servir.</li>
+        </ol>
+    </div>
+
+    <div class="recipe">
+        <h2>Brownies de Chocolate</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>200g de chocolate negro</li>
+            <li>150g de mantequilla</li>
+            <li>200g de azúcar</li>
+            <li>3 huevos</li>
+            <li>100g de harina</li>
+            <li>1 cucharadita de polvo de hornear</li>
+        </ul>
+        <h3>Instrucciones:</h3>
+        <ol>
+            <li>Derrite el chocolate y la mantequilla.</li>
+            <li>Mezcla con el azúcar y los huevos.</li>
+            <li>Añade la harina y el polvo de hornear.</li>
+            <li>Vierte en un molde y hornea a 180°C durante 25-30 minutos.</li>
+        </ol>
+    </div>
+
+    <div class="recipe">
+        <h2>Batido de Frutas</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1 plátano</li>
+            <li>1 taza de fresas</li>
+            <li>1 taza de leche</li>
+            <li>1 cucharada de miel</li>
+        </ul>
+        <h3>Instrucciones:</h3>
+        <ol>
+            <li>Coloca todos los ingredientes en una licuadora.</li>
+            <li>Licúa hasta obtener una mezcla suave.</li>
+            <li>Sirve frío y disfruta.</li>
+        </ol>
+    </div>
+
+    <div class="recipe">
+        <h2>Helado de Banana</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>4 bananas maduras</li>
+            <li>1 taza de leche (puede ser leche de almendra, coco o la que prefieras)</li>
+            <li>2 cucharadas de miel o azúcar (opcional)</li>
+            <li>1 cucharadita de esencia de vainilla (opcional)</li>
+        </ul>
+        <h3>Instrucciones:</h3>
+        <ol>
+            <li>Pela las bananas y córtalas en rodajas.</li>
+            <li>Coloca las rodajas de banana en una bandeja y congélalas durante al menos 2 horas.</li>
+            <li>Una vez congeladas, coloca las rodajas de banana en una licuadora o procesador de alimentos.</li>
+            <li>Añade la leche, la miel (o azúcar) y la esencia de vainilla.</li>
+            <li>Licúa hasta obtener una mezcla suave y cremosa.</li>
+            <li>Vierte la mezcla en un recipiente y congélala durante 1-2 horas más.</li>
+            <li>Sirve y disfruta de tu helado de banana casero.</li>
+        </ol>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</section>
+    
+</body>
+</html>
+
